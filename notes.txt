@@ -1,0 +1,17 @@
+2 ways to create a regex
+
+1. /javascript/g --> g means search in all string, without g only find first match
+2. new Regex('javascript', 'g')
+
+la / /g que significa global, sin esta bandera se parara la coincidencia a la primera que encuentra, por eso se la colocamos para identificar todas las coincidencias dentro de un String.
+la / /i que significa case-insensitive, que independiente de si esta la coincidencia en mayúsculas y minúsculas igual se hará la coincidencia, muy efectiva cuando no importa de como se escriba la palabra.
+la / /m que significa multilínea, que buscara cuando tienes líneas de espacio entre texto, sin esta bandera se para la búsqueda, efectivo cuando tengas \n en un String de JavaScript.
+
+#### Clases de letras
+. match all string items except line breaks
+\w only math letters and underscore
+\W opposite of the above
+\s only match spaces in string
+\S opposite of the above
+\d only match numbers
+\D opposite of the above 
