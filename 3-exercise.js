@@ -7,4 +7,7 @@ const paragraph = `La leyenda cuenta que el misterioso Pueblo Lavanda tiene en s
         que son captados por la sensibilidad de sus5 oídos, los cuales
         conducirían6 a los oyentes a actos sensibles8.`;
 
-console.log(paragraph.replace(/\d/g, '').replace(/\s\s/g, ' '));
+const paragraph2 = `eltempera2020 second`;
+
+console.log('1:::', paragraph.replace(/\d/g, '').replace(/\s\s/g, ' '));
+console.log('2:::', paragraph2.replace(/\w+/g, 'creepypastas'));
